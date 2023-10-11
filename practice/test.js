@@ -1,1 +1,3 @@
-console.log("AMina")
+console.log(x);
+
+var x=5;
