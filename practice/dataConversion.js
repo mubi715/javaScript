@@ -19,3 +19,12 @@ let myfunction = function name(params) {
     
 }
 console.log( typeof myfunction);
+// stack(premitice) heap(non premeeetive)
+let userOne={
+    userId:"Zarish",
+    email:"email@gmail.com"
+    
+}
+let userTwo=userOne
+userOne.email="ali@gmail.com"
+console.log(userTwo.email);
