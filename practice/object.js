@@ -27,6 +27,25 @@ myObj.greeting=function(){
 //     console.log(`hellow world,${this.email}`)
 // }
 // console.log(myObj.greetingTwo());
+
+///////////////////////////////////////////
+//singleton objects
+const newUser=new Object()
+newUser.email="mubasher@yahoo.com"
+newUser.age=45
+// console.log(newUser);
+const ourObj={
+    name:"maarij",
+    personalInfo:{
+
+        address: {
+
+            house:"corangtown"
+        }
+    }
+}
+// console.log(ourObj.personalInfo.address.house);
+
     
 
 
