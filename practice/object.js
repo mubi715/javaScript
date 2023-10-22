@@ -45,6 +45,18 @@ const ourObj={
     }
 }
 // console.log(ourObj.personalInfo.address.house);
+const obj1={ 1:"name ",2:"email"}
+const obj2={3:"lastname ",4:"another"}
+const obj3=Object.assign({},obj1,obj2)
+const obj4={...obj1,...obj2}
+// console.log(obj4);
+// array of objects//
+const userData =[
+    {id:1
+    email:"hisan@gmail.com"},
+    {id:1
+        email:"hisan@gmail.com"},
+]
 
     
 
