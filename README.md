@@ -1,2 +1,2 @@
-# javsscript
+# javascript
 js practice
