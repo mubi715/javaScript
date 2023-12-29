@@ -16,3 +16,5 @@ let used1=100
 let used2=200
 let used3=300
 console.log(Array.of(used1,used2,used3))// difference b/w of ,from,isArray
+
+// hellow mubasher
